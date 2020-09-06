@@ -34,7 +34,7 @@ pip install matplotlib
 ```python
 import distributions_gb001
 
-**- without data file**
+- without data file
 
 gaussian_one = distributions_gb001.Gaussian(22, 3)
 binomial_one = distributions_gb001.Binomial(.9, 20)
@@ -42,7 +42,7 @@ gaussian_one.mean # returns 22
 binomial_one.stdev # returns 1.3416407864998736
 gaussian_one + gaussian_one # returns 'mean 44, standard deviation 4.242640687119285'
 
-**- with data file**
+- with data file
 
 gaussian_two = distributions_gb001.Gaussian()
 gaussian_two.read_data_file("/home/myname/Desktop/numbers.txt") 
