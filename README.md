@@ -45,25 +45,29 @@ gaussian_one + gaussian_one # returns 'mean 44, standard deviation 4.24264068711
 **- with data file**
 
 gaussian_two = distributions_gb001.Gaussian()
-gaussian_two.read_data_file("/home/myname/Desktop/numbers.txt")  # read in data from a txt file
+gaussian_two.read_data_file("/home/myname/Desktop/numbers.txt") 
+ # read in data from a txt file
 
 gaussian_two.calculate_mean() # calculate mean
 gaussian_two.mean # returns mean value
 
 gaussian_two.calculate_stdev(sample=True)    # calculate standard deviation ...... 
-"""note -sample (bool): whether the data represents a sample or population which is set to True as default""" 
+"""note -sample (bool): whether the data represents a sample or population which is 
+set to True as default""" 
 gaussian_two.stdev # returns standard deviation value
 
 gaussian_two.pdf(x) # returns Probability density function output
 """x (float): point for calculating the probability density function"""
 
-gaussian_two.plot_histogram_pdf(n_spaces = 50) # visualize normalized histogram with your set spaces
+gaussian_two.plot_histogram_pdf(n_spaces = 50)
+ # visualize normalized histogram with your set spaces
 """n_spaces (int): number of data points which is set to 50 as default"""
 
 
 
 binomial_two = distributions_gb001.Binomial()
-binomial_two.read_data_file("/home/myname/Desktop/numbers_bin.txt") # read in data from a txt file
+binomial_two.read_data_file("/home/myname/Desktop/numbers_bin.txt")
+ # read in data from a txt file
 
 binomial_two.calculate_mean() # calculate mean
 binomial_two.mean # returns mean value
@@ -71,7 +75,8 @@ binomial_two.mean # returns mean value
 binomial_two.calculate_stdev()    # calculate standard deviation ...... 
 binomial_two.stdev # returns standard deviation value
 
-binomial_two.replace_stats_with_data() # to get new mean and standard deviation from the data set
+binomial_two.replace_stats_with_data() 
+# to get new mean and standard deviation from the data set
 """ by default --- mean = 10.0
                    standard deviation = 2.23606797749979"""
 binomial_two.mean # returns new mean value
@@ -85,14 +90,16 @@ binomial_two.plot_bar_pdf() # visualize normalized histogram with your set space
 
 
 """"Note : make sure "matplotlib" is installed" to visualize""" 
-""""Note : to provide GUI backend to show figures, make sure python Tkinter is installed - for linux/ubuntu --- sudo apt install python3-tk""" 
+""""Note : to provide GUI backend to show figures, make sure python Tkinter 
+is installed - for linux/ubuntu --- sudo apt install python3-tk""" 
 ```
 
 ## Author
 Abeeb Ridwan Olumide
 
 ## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+Pull requests are welcome. For major changes, please open an issue first to
+discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
 
