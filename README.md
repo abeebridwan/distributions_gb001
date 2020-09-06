@@ -9,8 +9,7 @@ What you can do with the package:
 
     -   calculate mean and standard deviation.
     -   calculate Probability density function
-    -   plot and visualize the normalized histogram of the data and a plot of the 
-		    probability density function along the same range or bar probability density function of a binomial distribution
+    -   plot and visualize the normalized histogram of the data and a plot of the probability density function along the same range or bar probability density function of a binomial distribution
     -   add together two Gaussian or Binomial distributions
 
 ## Installation
