@@ -1,9 +1,10 @@
 from setuptools import setup
 
-setup(name='distributioins_gb',
+setup(name='distributions_gb',
       version='0.1',
       description='Gaussian and binomial distributions',
-      packages=['distributioins_gb'],
+      packages=['distributions_gb'],
       author="Abeeb Ridwan Olumide",
       author_email="olumideuae@gmail.com",
+      setup_requires=['wheel'],
       zip_safe=False)
