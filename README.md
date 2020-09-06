@@ -13,6 +13,11 @@ What you can do with the package:
         function along the same range or bar probability density function of a binomial distribution
     -   add together two Gaussian or Binomial distributions
 
+## Images
+![Gaussian distribution formula](images/image01.png)
+
+![Binomial distribution formula](images/image02.png)
+
 ## Installation
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install distributions_gb001.
